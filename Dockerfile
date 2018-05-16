@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 RUN npm install
 
 # Expose the app port
-EXPOSE 80, 443
+EXPOSE 80 443
 
 # Start the app
 CMD npm start
